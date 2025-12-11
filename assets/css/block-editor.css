@@ -1,0 +1,107 @@
+/**
+ * Block Editor Custom Styles
+ * 
+ * @package Ascend
+ */
+
+:root {
+	--ascend-primary: #0066cc;
+	--ascend-primary-dark: #0052a3;
+	--ascend-secondary: #6b5b95;
+	--ascend-accent: #ff6b6b;
+	--ascend-neutral-100: #fafafa;
+	--ascend-neutral-200: #f0f0f0;
+	--ascend-neutral-300: #e0e0e0;
+	--ascend-neutral-500: #7a7a7a;
+	--ascend-neutral-700: #333333;
+	--ascend-neutral-900: #0a0a0a;
+}
+
+/* Block Editor Specific Styles */
+.wp-block-group__inner-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Editor Sidebar */
+.editor-sidebar {
+	background-color: var(--ascend-neutral-100);
+}
+
+/* Block Toolbar */
+.components-toolbar {
+	background-color: var(--ascend-neutral-200);
+}
+
+/* Focus Styles */
+.wp-block:focus {
+	outline: 2px solid var(--ascend-primary);
+	outline-offset: 2px;
+}
+
+/* Custom Button Styles for Editor */
+.wp-block-button .wp-block-button__link {
+	background-color: var(--ascend-primary);
+	color: white;
+	border: none;
+	border-radius: 0.375rem;
+	padding: 0.5rem 1.5rem;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: var(--ascend-primary-dark);
+	outline: 2px solid var(--ascend-primary);
+	outline-offset: 2px;
+}
+
+.wp-block-button.is-style-secondary .wp-block-button__link {
+	background-color: var(--ascend-secondary);
+}
+
+.wp-block-button.is-style-secondary .wp-block-button__link:hover,
+.wp-block-button.is-style-secondary .wp-block-button__link:focus {
+	background-color: var(--ascend-primary-dark);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	background-color: transparent;
+	border: 2px solid var(--ascend-primary);
+	color: var(--ascend-primary);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover,
+.wp-block-button.is-style-outline .wp-block-button__link:focus {
+	background-color: var(--ascend-primary);
+	color: white;
+}
+
+/* Block Wrapper Default Styles */
+.wp-block {
+	margin-bottom: 1rem;
+}
+
+/* Custom column widths */
+.wp-block-columns {
+	display: flex;
+	gap: 2rem;
+}
+
+.wp-block-column {
+	flex: 1;
+	min-width: 0;
+}
+
+/* Responsive columns */
+@media (max-width: 768px) {
+	.wp-block-columns {
+		flex-direction: column;
+		gap: 1rem;
+	}
+}
+
+/* Spacer block */
+.wp-block-spacer {
+	height: 100px;
+	background-color: transparent;
+}
