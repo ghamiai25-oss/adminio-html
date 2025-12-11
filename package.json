@@ -1,0 +1,18 @@
+{
+	"name": "ascend-theme",
+	"version": "1.0.0",
+	"description": "A lightweight, performance-focused WordPress theme",
+	"author": "Example Author",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/example/ascend",
+	"scripts": {
+		"lint:css": "stylelint \"**/*.css\" --ignore-path .gitignore",
+		"lint:php": "phpcs --standard=WordPress --ignore-path=.gitignore .",
+		"format:css": "prettier --write \"**/*.css\"",
+		"format:php": "phpcbf --standard=WordPress --ignore-path=.gitignore ."
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"stylelint": "^15.0.0"
+	}
+}
