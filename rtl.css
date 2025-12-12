@@ -1,0 +1,119 @@
+/*
+Theme Name: Ascend
+Description: RTL (Right-to-Left) stylesheet for Ascend theme
+*/
+
+/* ==========================================================================
+   RTL Layout
+   ========================================================================== */
+
+body.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Navigation */
+.rtl .primary-menu,
+.rtl .secondary-menu,
+.rtl .footer-menu {
+	text-align: right;
+}
+
+.rtl .primary-menu li,
+.rtl .secondary-menu li,
+.rtl .footer-menu li {
+	float: right;
+}
+
+/* Header */
+.rtl .site-branding {
+	text-align: right;
+}
+
+.rtl .custom-logo-link {
+	margin-right: 0;
+	margin-left: 1rem;
+}
+
+/* Content */
+.rtl .entry-content,
+.rtl .entry-summary {
+	text-align: right;
+}
+
+.rtl .entry-meta {
+	text-align: right;
+}
+
+/* Sidebar */
+.rtl .primary-sidebar {
+	float: left;
+	margin-left: 0;
+	margin-right: 2rem;
+}
+
+/* Lists */
+.rtl ul,
+.rtl ol {
+	margin-right: 1.5rem;
+	margin-left: 0;
+}
+
+/* Blockquote */
+.rtl blockquote {
+	border-right: 4px solid var(--color-primary);
+	border-left: none;
+	padding-right: 1.5rem;
+	padding-left: 0;
+}
+
+/* Comments */
+.rtl .comment-list {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.rtl .comment-list .children {
+	margin-right: 2rem;
+	margin-left: 0;
+}
+
+/* Forms */
+.rtl input[type="checkbox"],
+.rtl input[type="radio"] {
+	margin-right: 0;
+	margin-left: 0.5rem;
+}
+
+/* Footer */
+.rtl .footer-content {
+	text-align: right;
+}
+
+.rtl .site-info {
+	text-align: right;
+}
+
+/* WooCommerce RTL */
+.rtl.woocommerce .products {
+	direction: rtl;
+}
+
+.rtl.woocommerce ul.products li.product {
+	text-align: right;
+}
+
+.rtl.woocommerce .star-rating {
+	float: right;
+	margin-left: 0.5rem;
+	margin-right: 0;
+}
+
+/* Arrows and Icons */
+.rtl .next {
+	transform: rotate(180deg);
+}
+
+.rtl .prev {
+	transform: rotate(180deg);
+}

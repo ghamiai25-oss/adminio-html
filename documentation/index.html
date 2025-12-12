@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ascend Theme Documentation</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+			line-height: 1.6;
+			color: #333;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 2rem;
+		}
+		header {
+			background: linear-gradient(135deg, #0066cc, #6b5b95);
+			color: white;
+			padding: 3rem 0;
+			text-align: center;
+		}
+		header h1 {
+			font-size: 2.5rem;
+			margin-bottom: 0.5rem;
+		}
+		header p {
+			font-size: 1.25rem;
+			opacity: 0.9;
+		}
+		nav {
+			background: #f5f5f5;
+			padding: 1rem 0;
+			position: sticky;
+			top: 0;
+			z-index: 100;
+		}
+		nav ul {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 2rem;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-weight: 500;
+			transition: color 0.3s;
+		}
+		nav a:hover {
+			color: #0066cc;
+		}
+		.content {
+			padding: 3rem 0;
+		}
+		section {
+			margin-bottom: 4rem;
+		}
+		h2 {
+			font-size: 2rem;
+			color: #0066cc;
+			margin-bottom: 1.5rem;
+			padding-bottom: 0.5rem;
+			border-bottom: 2px solid #e0e0e0;
+		}
+		h3 {
+			font-size: 1.5rem;
+			color: #333;
+			margin: 2rem 0 1rem;
+		}
+		p {
+			margin-bottom: 1rem;
+		}
+		.feature-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 2rem;
+			margin: 2rem 0;
+		}
+		.feature-card {
+			background: #f9f9f9;
+			padding: 1.5rem;
+			border-radius: 8px;
+			border-left: 4px solid #0066cc;
+		}
+		.feature-card h4 {
+			margin-bottom: 0.5rem;
+			color: #0066cc;
+		}
+		code {
+			background: #f5f5f5;
+			padding: 0.2rem 0.5rem;
+			border-radius: 4px;
+			font-family: monospace;
+			font-size: 0.9em;
+		}
+		pre {
+			background: #f5f5f5;
+			padding: 1.5rem;
+			border-radius: 8px;
+			overflow-x: auto;
+			margin: 1rem 0;
+		}
+		pre code {
+			background: none;
+			padding: 0;
+		}
+		.alert {
+			padding: 1rem 1.5rem;
+			border-radius: 8px;
+			margin: 1rem 0;
+		}
+		.alert-info {
+			background: #e3f2fd;
+			border-left: 4px solid #2196f3;
+			color: #1565c0;
+		}
+		.alert-warning {
+			background: #fff3e0;
+			border-left: 4px solid #ff9800;
+			color: #e65100;
+		}
+		.alert-success {
+			background: #e8f5e9;
+			border-left: 4px solid #4caf50;
+			color: #2e7d32;
+		}
+		footer {
+			background: #333;
+			color: white;
+			text-align: center;
+			padding: 2rem 0;
+			margin-top: 4rem;
+		}
+		.version-badge {
+			display: inline-block;
+			background: #4caf50;
+			color: white;
+			padding: 0.25rem 0.75rem;
+			border-radius: 20px;
+			font-size: 0.875rem;
+			font-weight: 600;
+			margin-left: 0.5rem;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Ascend Theme Documentation <span class="version-badge">v1.0.0</span></h1>
+			<p>Complete guide to installing, customizing, and using the Ascend WordPress theme</p>
+		</div>
+	</header>
+
+	<nav>
+		<div class="container">
+			<ul>
+				<li><a href="#installation">Installation</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#customization">Customization</a></li>
+				<li><a href="#demo-import">Demo Import</a></li>
+				<li><a href="#woocommerce">WooCommerce</a></li>
+				<li><a href="#support">Support</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="content container">
+		<!-- Installation -->
+		<section id="installation">
+			<h2>Installation</h2>
+			
+			<h3>Method 1: WordPress Admin</h3>
+			<ol>
+				<li>Download the theme ZIP file</li>
+				<li>Go to <strong>Appearance → Themes → Add New</strong></li>
+				<li>Click <strong>Upload Theme</strong></li>
+				<li>Choose the ZIP file and click <strong>Install Now</strong></li>
+				<li>Click <strong>Activate</strong></li>
+			</ol>
+
+			<h3>Method 2: FTP Upload</h3>
+			<ol>
+				<li>Extract the theme ZIP file</li>
+				<li>Upload the <code>ascend</code> folder to <code>/wp-content/themes/</code></li>
+				<li>Go to <strong>Appearance → Themes</strong></li>
+				<li>Activate the Ascend theme</li>
+			</ol>
+
+			<div class="alert alert-info">
+				<strong>Requirements:</strong> WordPress 5.9+ and PHP 7.4+
+			</div>
+		</section>
+
+		<!-- Features -->
+		<section id="features">
+			<h2>Features</h2>
+			
+			<div class="feature-grid">
+				<div class="feature-card">
+					<h4>⚡ Performance Optimized</h4>
+					<p>Lightweight code, lazy loading, and Core Web Vitals optimization</p>
+				</div>
+				<div class="feature-card">
+					<h4>🎨 Design Tokens</h4>
+					<p>Consistent styling with CSS variables and design token system</p>
+				</div>
+				<div class="feature-card">
+					<h4>🛒 WooCommerce Ready</h4>
+					<p>Full integration with WooCommerce for online stores</p>
+				</div>
+				<div class="feature-card">
+					<h4>♿ Accessible</h4>
+					<p>WCAG 2.1 AA compliant with semantic HTML</p>
+				</div>
+				<div class="feature-card">
+					<h4>📱 Responsive</h4>
+					<p>Mobile-first design that works on all devices</p>
+				</div>
+				<div class="feature-card">
+					<h4>🎯 SEO Optimized</h4>
+					<p>Schema markup and SEO best practices built-in</p>
+				</div>
+				<div class="feature-card">
+					<h4>🔧 Customizable</h4>
+					<p>Extensive customizer options and hooks system</p>
+				</div>
+				<div class="feature-card">
+					<h4>🌍 Translation Ready</h4>
+					<p>Fully translatable with RTL support</p>
+				</div>
+			</div>
+
+			<h3>Custom Post Types</h3>
+			<ul>
+				<li><strong>Portfolio</strong> - Showcase your work</li>
+				<li><strong>Team</strong> - Display team members</li>
+				<li><strong>Testimonials</strong> - Show client reviews</li>
+			</ul>
+		</section>
+
+		<!-- Customization -->
+		<section id="customization">
+			<h2>Customization</h2>
+			
+			<p>Access theme options at <strong>Appearance → Customize → Ascend Theme Options</strong></p>
+
+			<h3>Header Options</h3>
+			<ul>
+				<li>Choose from 3 header layouts</li>
+				<li>Enable/disable sticky header</li>
+				<li>Customize header background color</li>
+				<li>Add custom logo</li>
+			</ul>
+
+			<h3>Footer Options</h3>
+			<ul>
+				<li>Select footer layout (2-4 columns)</li>
+				<li>Customize copyright text</li>
+				<li>Add footer menu and widgets</li>
+			</ul>
+
+			<h3>Typography</h3>
+			<ul>
+				<li>Body font selection</li>
+				<li>Heading font selection</li>
+				<li>System fonts or Google Fonts</li>
+			</ul>
+
+			<h3>Social Media</h3>
+			<ul>
+				<li>Facebook, Twitter, Instagram</li>
+				<li>LinkedIn, YouTube, Pinterest</li>
+				<li>Automatically integrated with schema markup</li>
+			</ul>
+
+			<h3>Blog Options</h3>
+			<ul>
+				<li>Choose sidebar position (left/right/none)</li>
+				<li>Set excerpt length</li>
+				<li>Customize post meta display</li>
+			</ul>
+
+			<div class="alert alert-warning">
+				<strong>Tip:</strong> Use the live preview in the customizer to see changes in real-time!
+			</div>
+		</section>
+
+		<!-- Demo Import -->
+		<section id="demo-import">
+			<h2>Demo Import</h2>
+			
+			<p>Import demo content with one click to get started quickly.</p>
+
+			<h3>Steps:</h3>
+			<ol>
+				<li>Go to <strong>Appearance → Demo Import</strong></li>
+				<li>Choose a demo (Corporate, Creative, or E-commerce)</li>
+				<li>Click <strong>Import Demo</strong></li>
+				<li>Wait for the import to complete</li>
+			</ol>
+
+			<h3>What Gets Imported:</h3>
+			<ul>
+				<li>Sample pages and posts</li>
+				<li>Portfolio items</li>
+				<li>Widgets configuration</li>
+				<li>Theme customizer settings</li>
+				<li>Menus</li>
+			</ul>
+
+			<div class="alert alert-info">
+				<strong>Note:</strong> Demo import requires the WordPress Importer plugin
+			</div>
+		</section>
+
+		<!-- WooCommerce -->
+		<section id="woocommerce">
+			<h2>WooCommerce Integration</h2>
+			
+			<p>Ascend includes full WooCommerce support for creating online stores.</p>
+
+			<h3>Setup WooCommerce:</h3>
+			<ol>
+				<li>Install the WooCommerce plugin</li>
+				<li>Complete the WooCommerce setup wizard</li>
+				<li>Add products</li>
+				<li>Configure shop pages</li>
+			</ol>
+
+			<h3>Features:</h3>
+			<ul>
+				<li>Product gallery with zoom and lightbox</li>
+				<li>Cart icon in header with live count</li>
+				<li>Responsive product grid</li>
+				<li>Optimized checkout process</li>
+				<li>Custom WooCommerce styles</li>
+			</ul>
+
+			<h3>Customization:</h3>
+			<pre><code>// Change products per page
+add_filter( 'loop_shop_per_page', function() {
+    return 16; // 16 products per page
+} );
+
+// Change number of columns
+add_filter( 'loop_shop_columns', function() {
+    return 4; // 4 columns
+} );</code></pre>
+		</section>
+
+		<!-- Child Theme -->
+		<section id="child-theme">
+			<h2>Using Child Theme</h2>
+			
+			<p>A child theme is included for safe customization.</p>
+
+			<h3>Installation:</h3>
+			<ol>
+				<li>Upload both <code>ascend</code> and <code>ascend-child</code> folders</li>
+				<li>Activate the <strong>Ascend Child</strong> theme</li>
+				<li>Add customizations to child theme files</li>
+			</ol>
+
+			<h3>Customizing:</h3>
+			<p>Add custom CSS to <code>ascend-child/style.css</code>:</p>
+			<pre><code>/* Custom styles */
+.site-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}</code></pre>
+
+			<p>Add custom PHP to <code>ascend-child/functions.php</code>:</p>
+			<pre><code>// Add custom function
+function my_custom_function() {
+    // Your code here
+}
+add_action( 'wp_footer', 'my_custom_function' );</code></pre>
+		</section>
+
+		<!-- Hooks -->
+		<section id="hooks">
+			<h2>Available Hooks</h2>
+			
+			<p>Ascend includes 20+ action hooks for developers:</p>
+
+			<h3>Header Hooks:</h3>
+			<ul>
+				<li><code>ascend_before_header</code></li>
+				<li><code>ascend_header_start</code></li>
+				<li><code>ascend_header_end</code></li>
+				<li><code>ascend_after_header</code></li>
+			</ul>
+
+			<h3>Content Hooks:</h3>
+			<ul>
+				<li><code>ascend_before_main</code></li>
+				<li><code>ascend_main_start</code></li>
+				<li><code>ascend_main_end</code></li>
+				<li><code>ascend_after_main</code></li>
+			</ul>
+
+			<h3>Example Usage:</h3>
+			<pre><code>// Add content after header
+add_action( 'ascend_after_header', function() {
+    echo '&lt;div class="custom-banner"&gt;Welcome!&lt;/div&gt;';
+} );</code></pre>
+		</section>
+
+		<!-- Support -->
+		<section id="support">
+			<h2>Support & Updates</h2>
+			
+			<h3>Documentation</h3>
+			<p>Full documentation is available online and included with the theme.</p>
+
+			<h3>Support</h3>
+			<p>For support questions:</p>
+			<ul>
+				<li>Check the FAQ section</li>
+				<li>Search the knowledge base</li>
+				<li>Submit a support ticket</li>
+			</ul>
+
+			<h3>Updates</h3>
+			<p>Theme updates are released regularly with:</p>
+			<ul>
+				<li>Bug fixes</li>
+				<li>New features</li>
+				<li>WordPress compatibility</li>
+				<li>Security patches</li>
+			</ul>
+
+			<div class="alert alert-success">
+				<strong>Thank you for choosing Ascend!</strong> We're here to help you succeed.
+			</div>
+		</section>
+
+		<!-- Changelog -->
+		<section id="changelog">
+			<h2>Changelog</h2>
+			
+			<h3>Version 1.0.0</h3>
+			<ul>
+				<li>Initial release</li>
+				<li>Theme options panel</li>
+				<li>WooCommerce integration</li>
+				<li>Custom post types</li>
+				<li>Demo import system</li>
+				<li>Schema markup</li>
+				<li>RTL support</li>
+			</ul>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 Ascend Theme. All rights reserved.</p>
+			<p>Created with ❤️ for WordPress</p>
+		</div>
+	</footer>
+</body>
+</html>

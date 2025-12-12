@@ -1,16 +1,24 @@
 /*
 Theme Name: Ascend
-Theme URI: https://github.com/example/ascend
-Author: Example Author
-Author URI: https://example.com
-Description: A lightweight, performance-focused WordPress theme with modern design tokens and Core Web Vitals optimization.
+Theme URI: https://themeforest.net/user/yourname
+Author: Your Name
+Author URI: https://themeforest.net/user/yourname
+Description: Ascend is a powerful, performance-focused WordPress theme perfect for businesses, portfolios, and WooCommerce stores. Features include custom post types, advanced theme options, one-click demo import, WooCommerce integration, and more. Built with modern design tokens, accessibility standards, and SEO optimization.
 Version: 1.0.0
-License: GPL v2 or later
+License: GPL v2 or later (ThemeForest Extended License)
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ascend
 Domain Path: /languages
+Tags: blog, e-commerce, portfolio, custom-menu, custom-logo, editor-style, featured-images, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 5.9
+Tested up to: 6.4
 Requires PHP: 7.4
+
+Ascend WordPress Theme, Copyright 2024
+Ascend is distributed under the terms of the GNU GPL v2 or later.
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
 
 html {
