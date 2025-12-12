@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascend Theme - Quick Start Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background: linear-gradient(135deg, #0066cc 0%, #6b5b95 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0066cc;
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+        h3 {
+            color: #333;
+            margin: 1.5rem 0 1rem;
+            font-size: 1.25rem;
+        }
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        .step-number {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        ul {
+            margin: 1rem 0 1rem 2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .alert {
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid;
+        }
+        .alert-success {
+            background: #e8f5e9;
+            border-color: #4caf50;
+            color: #1b5e20;
+        }
+        .alert-info {
+            background: #e3f2fd;
+            border-color: #2196f3;
+            color: #0d47a1;
+        }
+        .checklist {
+            list-style: none;
+            margin-left: 0;
+        }
+        .checklist li:before {
+            content: "☐ ";
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+        .time-estimate {
+            background: #fff3e0;
+            color: #e65100;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ Quick Start Guide</h1>
+            <p>Get your Ascend theme up and running in 15 minutes</p>
+        </header>
+
+        <div class="card">
+            <h2>5-Minute Setup</h2>
+            <div class="time-estimate">⏱️ Estimated Time: 5-10 minutes</div>
+
+            <div class="step">
+                <h3><span class="step-number">1</span> Install Theme</h3>
+                <p>Go to <strong>Appearance → Themes → Add New → Upload Theme</strong></p>
+                <p>Upload <code>ascend.zip</code> and click <strong>Activate</strong></p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">2</span> Import Demo Content</h3>
+                <p>Go to <strong>Appearance → Demo Import</strong></p>
+                <p>Choose a demo and click <strong>Import Demo</strong></p>
+                <p>Wait 2-5 minutes for completion</p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">3</span> Set Homepage</h3>
+                <p>Go to <strong>Settings → Reading</strong></p>
+                <p>Select "A static page" and choose "Home"</p>
+                <p>Click <strong>Save Changes</strong></p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">4</span> Upload Your Logo</h3>
+                <p>Go to <strong>Appearance → Customize → Site Identity</strong></p>
+                <p>Click <strong>Select Logo</strong> and upload your image</p>
+                <p>Click <strong>Publish</strong></p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">5</span> Customize Colors</h3>
+                <p>Go to <strong>Appearance → Customize → Ascend Theme Options</strong></p>
+                <p>Adjust colors, fonts, and settings</p>
+                <p>Click <strong>Publish</strong></p>
+            </div>
+
+            <div class="alert alert-success">
+                <strong>🎉 Congratulations!</strong> Your site is now live with Ascend theme.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Essential Settings Checklist</h2>
+            <div class="time-estimate">⏱️ Estimated Time: 10 minutes</div>
+
+            <h3>🔧 Basic Configuration</h3>
+            <ul class="checklist">
+                <li>Set site title and tagline (<strong>Settings → General</strong>)</li>
+                <li>Configure permalinks to "Post name" (<strong>Settings → Permalinks</strong>)</li>
+                <li>Create main navigation menu (<strong>Appearance → Menus</strong>)</li>
+                <li>Upload site logo (<strong>Appearance → Customize → Site Identity</strong>)</li>
+                <li>Set favicon (<strong>Appearance → Customize → Site Identity</strong>)</li>
+            </ul>
+
+            <h3>🎨 Design Customization</h3>
+            <ul class="checklist">
+                <li>Choose header layout (<strong>Customize → Header Options</strong>)</li>
+                <li>Select body and heading fonts (<strong>Customize → Typography</strong>)</li>
+                <li>Set primary and secondary colors (<strong>Customize → Colors</strong>)</li>
+                <li>Configure footer layout (<strong>Customize → Footer Options</strong>)</li>
+                <li>Add social media links (<strong>Customize → Social Media</strong>)</li>
+            </ul>
+
+            <h3>📝 Content Setup</h3>
+            <ul class="checklist">
+                <li>Replace demo content with your content</li>
+                <li>Create essential pages (About, Services, Contact)</li>
+                <li>Add blog posts</li>
+                <li>Upload your images</li>
+                <li>Update contact information</li>
+            </ul>
+
+            <h3>⚡ Performance Optimization</h3>
+            <ul class="checklist">
+                <li>Enable lazy loading (<strong>Customize → Performance</strong>)</li>
+                <li>Enable deferred JavaScript (<strong>Customize → Performance</strong>)</li>
+                <li>Install a caching plugin (WP Rocket or W3 Total Cache)</li>
+                <li>Optimize images before uploading (use TinyPNG)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>WooCommerce Setup (Optional)</h2>
+            <div class="time-estimate">⏱️ Estimated Time: 15 minutes</div>
+
+            <div class="step">
+                <h3><span class="step-number">1</span> Install WooCommerce</h3>
+                <p>Go to <strong>Plugins → Add New</strong></p>
+                <p>Search for "WooCommerce" and install</p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">2</span> Run Setup Wizard</h3>
+                <p>Complete the WooCommerce setup wizard</p>
+                <p>Enter store details and currency</p>
+                <p>Skip theme selection (Ascend already supports it)</p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">3</span> Configure Settings</h3>
+                <p>Set up shipping zones (<strong>WooCommerce → Settings → Shipping</strong>)</p>
+                <p>Configure payment gateways (<strong>WooCommerce → Settings → Payments</strong>)</p>
+                <p>Set tax rates if needed (<strong>WooCommerce → Settings → Tax</strong>)</p>
+            </div>
+
+            <div class="step">
+                <h3><span class="step-number">4</span> Add Products</h3>
+                <p>Go to <strong>Products → Add New</strong></p>
+                <p>Add product name, description, price, and images</p>
+                <p>Publish your products</p>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>💡 Tip:</strong> The cart icon will automatically appear in your header once WooCommerce is active.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Common First Steps</h2>
+
+            <h3>📧 Contact Form</h3>
+            <p>Install Contact Form 7 or WPForms plugin and add a contact form to your Contact page.</p>
+
+            <h3>🔍 SEO Setup</h3>
+            <p>Install Yoast SEO or Rank Math plugin to optimize your content for search engines. Ascend already includes Schema.org markup.</p>
+
+            <h3>🔒 Security</h3>
+            <p>Install Wordfence or iThemes Security plugin to protect your site from threats.</p>
+
+            <h3>📊 Analytics</h3>
+            <p>Set up Google Analytics to track visitor behavior. Use Site Kit by Google or MonsterInsights plugin.</p>
+
+            <h3>💾 Backups</h3>
+            <p>Install UpdraftPlus or BackupBuddy to create regular backups of your site.</p>
+        </div>
+
+        <div class="card">
+            <h2>Next Steps</h2>
+
+            <h3>📚 Read Full Documentation</h3>
+            <p>Open <code>documentation/index.html</code> for comprehensive guides on all features.</p>
+
+            <h3>🎓 Learn About Features</h3>
+            <ul>
+                <li><strong>Custom Post Types:</strong> Portfolio, Team Members, Testimonials</li>
+                <li><strong>Developer Hooks:</strong> 20+ hooks for customization</li>
+                <li><strong>Child Theme:</strong> Use included child theme for modifications</li>
+                <li><strong>Performance:</strong> Built-in optimizations for speed</li>
+            </ul>
+
+            <h3>🆘 Get Help</h3>
+            <p>If you need assistance:</p>
+            <ul>
+                <li>Check the full documentation</li>
+                <li>Visit the support forum</li>
+                <li>Submit a support ticket</li>
+                <li>Email: support@elevateworks.com</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Pro Tips</h2>
+
+            <div class="alert alert-info">
+                <strong>🎯 Use Child Theme:</strong>
+                <p>Always activate and use the included child theme (<code>ascend-child</code>) for any customizations to preserve changes during updates.</p>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>📱 Test on Mobile:</strong>
+                <p>After making changes, always test your site on mobile devices to ensure everything looks great.</p>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>💾 Backup Before Updates:</strong>
+                <p>Always create a backup before updating WordPress, plugins, or the theme.</p>
+            </div>
+
+            <div class="alert alert-info">
+                <strong>🖼️ Optimize Images:</strong>
+                <p>Compress images before uploading using TinyPNG.com or ShortPixel plugin to maintain fast loading speeds.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Ascend Theme</strong> by ElevateWorks</p>
+            <p>Thank you for choosing Ascend! We're excited to see what you'll create.</p>
+            <p style="margin-top: 1rem;">
+                <a href="index.html" style="color: #0066cc; text-decoration: none;">← Back to Full Documentation</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
