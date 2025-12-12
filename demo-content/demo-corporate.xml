@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a WordPress eXtended RSS file for Demo 1 - Corporate -->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+	<title>Ascend Demo - Corporate</title>
+	<link>http://demo.ascendtheme.com</link>
+	<description>Corporate Demo Content for Ascend Theme</description>
+	<pubDate>Wed, 01 Jan 2024 00:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://demo.ascendtheme.com</wp:base_site_url>
+	<wp:base_blog_url>http://demo.ascendtheme.com</wp:base_blog_url>
+
+	<!-- Home Page -->
+	<item>
+		<title>Home</title>
+		<link>http://demo.ascendtheme.com/home/</link>
+		<pubDate>Wed, 01 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:heading {"level":1,"textAlign":"center"} -->
+<h1 class="has-text-align-center">Welcome to Ascend</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size">A powerful, performance-focused WordPress theme for businesses</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link">Get Started</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+
+<!-- wp:spacer {"height":"50px"} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center">Our Services</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"level":3} -->
+<h3>Web Development</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Custom WordPress solutions tailored to your business needs.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"level":3} -->
+<h3>Design</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Beautiful, modern designs that engage your audience.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"level":3} -->
+<h3>Marketing</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Strategic marketing to grow your online presence.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+	</item>
+
+	<!-- About Page -->
+	<item>
+		<title>About Us</title>
+		<link>http://demo.ascendtheme.com/about/</link>
+		<pubDate>Wed, 01 Jan 2024 10:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:heading {"level":1} -->
+<h1>About Our Company</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">We are a team of passionate professionals dedicated to creating exceptional digital experiences.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Founded in 2024, our company has grown to become a leader in WordPress theme development. We believe in creating products that are not only beautiful but also functional and performant.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Our Mission</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>To empower businesses with professional, accessible, and high-performing WordPress themes that help them succeed online.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Our Values</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>Quality First - We never compromise on quality</li><li>Customer Success - Your success is our success</li><li>Innovation - Always pushing boundaries</li><li>Transparency - Honest and open communication</li></ul>
+<!-- /wp:list -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+	</item>
+
+	<!-- Services Page -->
+	<item>
+		<title>Services</title>
+		<link>http://demo.ascendtheme.com/services/</link>
+		<pubDate>Wed, 01 Jan 2024 10:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:heading {"level":1} -->
+<h1>Our Services</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Comprehensive solutions for your digital needs</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2>WordPress Development</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Custom WordPress themes and plugins tailored to your specific requirements. We build scalable, maintainable solutions that grow with your business.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>E-commerce Solutions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Complete WooCommerce integration and customization. From product setup to payment gateways, we handle everything.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Performance Optimization</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Speed matters. We optimize your site for Core Web Vitals and lightning-fast load times.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>SEO Services</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Get found online with our comprehensive SEO services including schema markup, optimization, and content strategy.</p>
+<!-- /wp:paragraph -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+	</item>
+
+	<!-- Contact Page -->
+	<item>
+		<title>Contact Us</title>
+		<link>http://demo.ascendtheme.com/contact/</link>
+		<pubDate>Wed, 01 Jan 2024 10:45:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:heading {"level":1} -->
+<h1>Get In Touch</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">We'd love to hear from you</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"level":3} -->
+<h3>Contact Information</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Email:</strong> support@elevateworks.com</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Phone:</strong> +1 (555) 123-4567</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Address:</strong><br>123 Business Street<br>Suite 100<br>City, State 12345</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"level":3} -->
+<h3>Business Hours</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br><strong>Saturday:</strong> 10:00 AM - 4:00 PM<br><strong>Sunday:</strong> Closed</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p>Insert your contact form shortcode here: [contact-form-7]</p>
+<!-- /wp:paragraph -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+	</item>
+
+	<!-- Sample Blog Post 1 -->
+	<item>
+		<title>Getting Started with WordPress</title>
+		<link>http://demo.ascendtheme.com/blog/getting-started-wordpress/</link>
+		<pubDate>Mon, 15 Jan 2024 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">WordPress powers over 40% of the web. Here's why it's the perfect choice for your website.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>WordPress is an incredibly powerful and flexible content management system. Whether you're building a simple blog or a complex e-commerce store, WordPress has the tools you need.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Why Choose WordPress?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>Easy to use and manage</li><li>Thousands of themes and plugins</li><li>SEO-friendly out of the box</li><li>Large community support</li><li>Scalable and flexible</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>With the Ascend theme, you get all the benefits of WordPress plus advanced features designed for performance and user experience.</p>
+<!-- /wp:paragraph -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[getting-started-wordpress]]></wp:post_name>
+		<category domain="category" nicename="tutorials"><![CDATA[Tutorials]]></category>
+	</item>
+
+	<!-- Sample Blog Post 2 -->
+	<item>
+		<title>5 Tips for Better Website Performance</title>
+		<link>http://demo.ascendtheme.com/blog/website-performance-tips/</link>
+		<pubDate>Wed, 17 Jan 2024 10:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Speed matters. Here are 5 essential tips to make your website lightning fast.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>1. Optimize Your Images</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Large images are often the biggest culprit of slow load times. Always compress and optimize images before uploading.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>2. Use a Caching Plugin</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Caching dramatically improves load times by storing static versions of your pages.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>3. Choose Quality Hosting</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your hosting provider plays a crucial role in site performance. Invest in quality hosting.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>4. Minimize Plugins</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Only use plugins you actually need. Each plugin adds overhead to your site.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>5. Use a Lightweight Theme</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ascend is designed for performance from the ground up, with minimal code and optimized assets.</p>
+<!-- /wp:paragraph -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[website-performance-tips]]></wp:post_name>
+		<category domain="category" nicename="performance"><![CDATA[Performance]]></category>
+	</item>
+
+	<!-- Portfolio Item 1 -->
+	<item>
+		<title>Corporate Website Redesign</title>
+		<link>http://demo.ascendtheme.com/portfolio/corporate-website/</link>
+		<pubDate>Thu, 18 Jan 2024 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<content:encoded><![CDATA[
+<!-- wp:paragraph {"fontSize":"large"} -->
+<p class="has-large-font-size">Complete redesign of a corporate website with modern aesthetics and improved user experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Project Overview</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This project involved redesigning a dated corporate website to meet modern standards while maintaining brand identity.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Technologies Used</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>WordPress 6.4</li><li>Custom Theme Development</li><li>WooCommerce Integration</li><li>Performance Optimization</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2>Results</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The new website achieved a 95+ PageSpeed score and increased conversion rates by 40%.</p>
+<!-- /wp:paragraph -->
+		]]></content:encoded>
+		<wp:post_type><![CDATA[portfolio]]></wp:post_type>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[corporate-website]]></wp:post_name>
+		<category domain="portfolio_category" nicename="web-design"><![CDATA[Web Design]]></category>
+	</item>
+
+</channel>
+</rss>
