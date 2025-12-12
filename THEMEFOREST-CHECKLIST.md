@@ -70,8 +70,8 @@
 - [ ] **Generate screenshot.png** - Convert screenshot.svg to PNG (1200x900px)
 - [ ] **Create demo content XML** - Export sample content for import
 - [ ] **Add demo images** - Screenshots for demo import options
-- [ ] **Update author information** - Replace "Your Name" with actual author
-- [ ] **Update URLs** - Replace placeholder URLs with actual URLs
+- [x] **Update author information** - Updated to "ElevateWorks" ✅
+- [x] **Update URLs** - Updated to elevateworks URLs ✅
 - [ ] **Complete .POT file** - Generate full translation file
 - [ ] **Test demo import** - Ensure demo import works correctly
 - [ ] **Cross-browser testing** - Test on all major browsers

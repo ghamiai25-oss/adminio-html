@@ -301,10 +301,10 @@ Built with:
 
 ## 📞 Contact
 
-- **Author:** Your Name
-- **Email:** support@yoursite.com
-- **Profile:** https://themeforest.net/user/yourname
-- **Website:** https://yoursite.com
+- **Author:** ElevateWorks
+- **Email:** support@elevateworks.com
+- **Profile:** https://themeforest.net/user/elevateworks
+- **Website:** https://elevateworks.com
 
 ---
 

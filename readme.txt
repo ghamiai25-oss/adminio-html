@@ -1,5 +1,5 @@
 === Ascend ===
-Contributors: Example Author
+Contributors: ElevateWorks
 Requires at least: 5.9
 Requires PHP: 7.4
 Tested up to: 6.4
