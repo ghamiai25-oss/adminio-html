@@ -1,18 +1,50 @@
 {
-	"name": "ascend-theme",
-	"version": "1.0.0",
-	"description": "A lightweight, performance-focused WordPress theme",
-	"author": "Example Author",
-	"license": "GPL-2.0-or-later",
-	"homepage": "https://github.com/example/ascend",
-	"scripts": {
-		"lint:css": "stylelint \"**/*.css\" --ignore-path .gitignore",
-		"lint:php": "phpcs --standard=WordPress --ignore-path=.gitignore .",
-		"format:css": "prettier --write \"**/*.css\"",
-		"format:php": "phpcbf --standard=WordPress --ignore-path=.gitignore ."
-	},
-	"devDependencies": {
-		"prettier": "^3.0.0",
-		"stylelint": "^15.0.0"
-	}
+  "name": "admin-template",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Premium React + TypeScript Admin Template with Vite",
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://github.com/example/admin-template",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,css}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.303.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "recharts": "^2.10.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-tailwindcss": "^0.0.7",
+    "tailwindcss": "^3.3.6",
+    "terser": "^5.44.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
 }
